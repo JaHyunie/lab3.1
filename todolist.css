@@ -1,0 +1,57 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    /*background-image: url(hotdog.png);*/
+    background-color: pink;
+    background-position: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+button {
+    border-radius: 2px;
+}
+.remove {
+    margin: auto;
+    border-radius: 2px;
+    text-align: auto;
+    height: 20px;
+}
+h1 {
+    background-color: Black;
+    color: white;
+    text-align: center;
+}
+.tod {
+    display: flex;
+    text-align: center;
+}
+.yourlist {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
+.yourlistlist {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+}
+.todolist {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px 70px 50px 70px;
+    border-radius: 10px;
+}
+.in {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    border: 2px hidden ;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
